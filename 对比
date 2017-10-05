@@ -1,5 +1,13 @@
 #include<iostream>
 using namespace std;
+int main(){
+	char c=186;
+	cout<<c;
+	cout<<"hello"<<endl;
+	return 0;
+}
+#include<iostream>
+using namespace std;
 int main()
 {char c=186;
 cout<<c<<endl;
