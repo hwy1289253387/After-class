@@ -1,0 +1,10 @@
+#include<iostream>
+using namespace std;
+int main(){
+	int num='a';
+	
+	cout<<num<<endl;
+    cout<<'\12'<<endl;//'\12'表示换行，也可以用'\xa','\xA'表示 
+    cout<<"hh"<<endl;
+	return 0;
+}
