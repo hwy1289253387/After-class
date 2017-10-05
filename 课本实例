@@ -1,0 +1,12 @@
+# After-class  科学计数法和取消科学计数法
+#include<iostream>
+using namespace std;
+int main(){   int a=10,b=20,c=30,d=40;
+double m=5.23, n=100;
+cout<<"a="<<oct<<a<<'\t'<<"b="<<b<<endl;
+cout.setf(ios::scientific,ios::floatfield);        
+cout<<"c="<<hex<<c<<'\t'<<"n-d="<<n-d<<endl;   
+cout<<"m="<<m<<endl;
+cout.unsetf(ios::scientific);
+cout<<"m="<<m<<'\t'<<"n="<<n<<endl;
+return 0;}
