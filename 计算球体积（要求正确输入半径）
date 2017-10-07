@@ -1,0 +1,17 @@
+#include<iostream>
+using namespace std;
+const float PI=3.14;
+int main(){
+	int r;
+	float volume;
+	cout<<"please input an integer that greater than 0 as crown radius:";
+	cin>>r;
+	if(r>0)
+	{volume=4*PI*r*r*r/3;
+	cout<<"球的体积为："<<volume<<endl;
+
+	}else
+	{cout<<"输入的球半径不符合要求"<<endl; 
+	}
+	
+	return 0;} 
