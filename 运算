@@ -1,0 +1,11 @@
+#include<iostream>
+using namespace std;
+int main(){
+	int a=3,b=5,c=0;
+	float x=2.5,y=8.2,z=1.4;
+	char ch1='a',ch2='5',ch3='0',ch4;
+	c+=(b*(int)y)%a+z;
+	cout<<c<<endl;  
+	return 0;
+	
+}
