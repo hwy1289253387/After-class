@@ -1,0 +1,25 @@
+#include<iostream>                                  //一个大偶数可以分解为两个素数之和。试编程序将96-100之间全部偶数分解成两个素数之和
+#include<cmath> 
+using namespace std;
+bool prime(int a)//返回值为布尔类型 
+{int i,k;
+k=(int)sqrt(a);
+for(i=2;i<=k;i++) 
+   if(a%i==0)
+   return false;
+   return true;
+}
+int main(){
+  int a,b,m;
+  for(m=96;m<=100;m=m+2)
+  for (a=2;a<=m/2;a++)
+      if(prime(a))
+      {b=m-a;
+      if(prime(b))
+      {cout<<m<<"="<<a<<"+"<<b<<endl;
+      break;//如果没有break,则找出所有组合 
+	  }
+	  }
+return 0;
+}
+
